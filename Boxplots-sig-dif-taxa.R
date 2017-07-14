@@ -1,0 +1,7 @@
+library(vegan)
+count <- read.table("serratia-marcescens.txt", sep="\t", row.names=1, header=T)
+count <- t(count)
+matrix = as.matrix (count)
+pdf(file="boxplots- serratia-marcescens.pdf")
+boxplot(count [1:3],count [4:6],col=c("yellow","blue"),ylab="serratia-marcescens", xlab = "samples", names =c("Shallow", "Deep"))
+dev.off()
