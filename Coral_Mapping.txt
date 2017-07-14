@@ -1,0 +1,7 @@
+#SampleID	BarcodeSequence	LinkerPrimerSequence	Species	Collection_Site	Temperature	Solar_Radiation_Lux	Depth_m	depth	Tissue_Color	Description
+CL1	CGTACTAG	GTGCCAGCMGCCGCGGTAA	Acropora_cervicornis	Palomino_Norte	29.2	11203.55	1.5	shallow	Pale_Yellow	Llano_1
+CL2	AGGCAGAA	GTGCCAGCMGCCGCGGTAA	Acropora_cervicornis	Palomino_Norte	29.2	11203.55	1.5	shallow	Pale_Yellow	Llano_2
+CL3	TCCTGAGC	GTGCCAGCMGCCGCGGTAA	Acropora_cervicornis	Palomino_Norte	29.2	11203.55	1.5	shallow	Pale_Yellow	Llano_3
+CP1	GGACTCCT	GTGCCAGCMGCCGCGGTAA	Acropora_cervicornis	Palomino_Norte	28.7	3429.36	11	deep	Dark_Yellow	Profundo_1
+CP2	TAGGCATG	GTGCCAGCMGCCGCGGTAA	Acropora_cervicornis	Palomino_Norte	28.7	3429.36	11	deep	Dark_Yellow	Profundo_2
+CP3	CTCTCTAC	GTGCCAGCMGCCGCGGTAA	Acropora_cervicornis	Palomino_Norte	28.7	3429.36	11	deep	Dark_Yellow	Profundo_3
