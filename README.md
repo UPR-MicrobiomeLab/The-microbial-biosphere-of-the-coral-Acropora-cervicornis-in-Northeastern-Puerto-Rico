@@ -181,5 +181,50 @@ biom convert -i DESeq2_g_test38.biom -o DESeq2_g_test38.txt --to-tsv --header-ke
 
 
 
-
+# LIST OF ALL THE FILES AVAILABLE IN THIS REPOSITORY:
+	README.md
+	Figure 2 beta and alpha div.pdf
+	Figure 4-ricketsialles.pdf
+	Figure 5 core 100.pdf
+	Figure3-taxaplots.pdf
+	Figure6-small.tif
+	38distmatrix.csv
+	Boxplots-sig-dif-taxa.R
+	Coral-PR-Otutables.xlsx
+	Coral_Mapping.csv
+	Coral_Mapping.txt
+	DESeq2_g_test38.biom
+	DESeq2_g_test38.txt
+	DESeq2_g_test44.txt
+	DESeq2_g_test44_tax.csv
+	Depth_m_stats.txt
+	alpha_params.txt
+	coral.biom
+	coral.txt
+	gtest38.csv
+	gtest_depth-ricketsialles-44.txt
+	gtest_depth.txt
+	heatmap-script-fig4.R
+	heatmap-script-fig6.R
+	heatmap_function.R
+	list-coretaxa.txt
+	metacoral.txt
+	nmds-for-fig2B.R
+	norick.biom
+	norick_obs_table.biom
+	norick_rarefied_obs_table.biom
+	otu_table-inicial.biom
+	rarefied_obs_table.biom
+	rep_set.fna
+	rep_set.tre
+	ricketsialles.biom
+	ricketsialles.txt
+	rickrarefied.biom
+	signorickrick38.biom
+	signorickrick38.txt
+	sigrick44.biom
+	taxa_summary_genus_script.R
+	taxa_summary_phyla_script.R
+	taxonomy_L2_R.txt
+	taxonomy_L6_R.txt
 
