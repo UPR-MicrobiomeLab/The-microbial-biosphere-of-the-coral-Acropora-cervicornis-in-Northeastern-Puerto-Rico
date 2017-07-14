@@ -1,0 +1,1 @@
+	coral	depthCL1	1	shallowCL2	1	shallowCL3	1	shallowCP1	2	deepCP2	2	deepCP3	2	deep

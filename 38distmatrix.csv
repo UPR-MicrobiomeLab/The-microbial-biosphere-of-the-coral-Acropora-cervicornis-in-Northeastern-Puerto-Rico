@@ -1,0 +1,39 @@
+taxa_string,CL1,CL2,CL3,CP1,CP2,CP3
+denovo7060_ p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales,0,0,0,0.009090909,0.004149378,0.005417957
+denovo58755_ p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas,0,0,0.044925125,0,0,0
+denovo631_ p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae,0,0,0,0.009090909,0.005678096,0.000773994
+denovo7612_ p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter,0,0,0,0,0.005896484,0.003095975
+denovo239_ p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Lactococcus,0.4,0,0,0,0,0
+denovo19833_ p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Erythrobacteraceae,0,0,0,0,0.000436777,0.023219814
+denovo23188_ p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales,0,0,0,0,0.006988425,0
+denovo4901_ p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus,0,0,0,0,0.006114872,0.003869969
+denovo2741_ p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus,0,0,0,0,0.007206814,0
+denovo6455_ p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales,0,0,0,0,0.006114872,0.004643963
+denovo262_ p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Erythrobacteraceae,0,0,0,0,0.001091941,0.023219814
+denovo98_ p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Prevotellaceae; g__Prevotella,0,0.071428571,0,0.318181818,0.000218388,0
+denovo168_ p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Cryomorphaceae,0,0,0,0,0.009827473,0
+denovo6243_ p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales,0,0,0,0,0.009827473,0
+denovo4998_ p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus,0,0,0,0,0.009827473,0.001547988
+denovo23266_ p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__schindleri,0,0,0.001663894,0,0.010045862,0
+denovo296_ p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__succinicans,0,0,0,0,0.001965495,0.033281734
+denovo24564_ p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales,0,0,0.001663894,0.018181818,0.011137803,0.000773994
+denovo144_ p__Firmicutes; c__Clostridia; o__Clostridiales; f__[Tissierellaceae]; g__Anaerococcus,0,0,0.08985025,0.036363636,0.000218388,0
+denovo182_ p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae,0,0.035714286,0.101497504,0,0,0
+denovo22973_ p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales,0,0,0,0,0.013540074,0
+denovo246_ p__Planctomycetes; c__Phycisphaerae; o__Phycisphaerales,0,0,0,0,0.013976851,0.003095975
+denovo37260_ p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae,0,0.214285714,0.106489185,0,0,0
+denovo24496_ p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales,0,0.035714286,0.006655574,0.036363636,0.016379122,0.003869969
+denovo16266_ p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae,0,0,0,0,0,0.069659443
+denovo59944_ p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae,0,0,0.168053245,0,0,0
+denovo172_ p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__Serratia; s__marcescens,0,0.178571429,0.171381032,0,0,0
+denovo14192_ p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter,0.0125,0,0.016638935,0.009090909,0.006551649,0.05495356
+denovo127_ p__Nitrospirae; c__Nitrospira; o__Nitrospirales; f__Nitrospiraceae; g__Nitrospira,0,0,0.193011647,0,0,0
+denovo74_ p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium,0,0,0,0.1,0.008298755,0.054179567
+denovo78_ p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae,0,0,0,0,0,0.092105263
+denovo7117_ p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales,0,0,0,0.009090909,0.025333042,0.013157895
+denovo4618_ p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__johnsonii,0,0,0.011647255,0.027272727,0.032976632,0.006965944
+denovo22_ p__Proteobacteria; c__Gammaproteobacteria; o__Pasteurellales; f__Pasteurellaceae; g__Haemophilus,0.5375,0.25,0,0.318181818,0.000218388,0.15247678
+denovo12_ p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus; s__plantarum,0.025,0.178571429,0.031613977,0.009090909,0.050884473,0.31501548
+denovo7_ p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus,0,0,0,0,0.150032758,0.028637771
+denovo10_ p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__schindleri,0.0125,0,0.043261231,0,0.198733348,0.060371517
+denovo2_ p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales,0.0125,0.035714286,0.011647255,0.1,0.386328893,0.045665635
