@@ -1,0 +1,7 @@
+#SampleID,Collection_Site,Temperature,Solar_Radiation_Lux,Depth_m,Tissue_Color,Description
+Shallow1,Palomino_Norte,29.2,11203.55,1.5,Pale_Yellow,Llano_1
+Shallow2,Palomino_Norte,29.2,11203.55,1.5,Pale_Yellow,Llano_2
+Shallow3,Palomino_Norte,29.2,11203.55,1.5,Pale_Yellow,Llano_3
+Deep1,Palomino_Norte,28.7,3429.36,11,Dark_Yellow,Profundo_1
+Deep2,Palomino_Norte,28.7,3429.36,11,Dark_Yellow,Profundo_2
+Deep3,Palomino_Norte,28.7,3429.36,11,Dark_Yellow,Profundo_3
