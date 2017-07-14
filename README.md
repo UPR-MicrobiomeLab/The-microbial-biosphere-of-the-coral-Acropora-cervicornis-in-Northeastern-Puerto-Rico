@@ -181,7 +181,7 @@ biom convert -i DESeq2_g_test38.biom -o DESeq2_g_test38.txt --to-tsv --header-ke
 
 
 
-# LIST OF ALL THE FILES AVAILABLE IN THIS REPOSITORY:
+# LIST OF ALL THE 45 FILES AVAILABLE IN THIS REPOSITORY (SCRIPTS, FIGURES AND INTERMEDIARY FILES):
 	README.md
 	Figure 2 beta and alpha div.pdf
 	Figure 4-ricketsialles.pdf
