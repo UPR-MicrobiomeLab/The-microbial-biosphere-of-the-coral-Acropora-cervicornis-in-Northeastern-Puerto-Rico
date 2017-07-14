@@ -227,4 +227,5 @@ biom convert -i DESeq2_g_test38.biom -o DESeq2_g_test38.txt --to-tsv --header-ke
 	taxa_summary_phyla_script.R
 	taxonomy_L2_R.txt
 	taxonomy_L6_R.txt
+	Table 1.png
 
