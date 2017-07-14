@@ -50,7 +50,7 @@ biom convert –i otu_table-inicial.biom –o otu_table-inicial.txt --to-tsv --h
 
 # We opened the txt file in excel and removed mannually: 1) the only OTU corresponding to an Archaea (present in only 1 sample), 2) kept OTUs with sequences present in at least three of the 6 samples. We additionally proceeded with further manual filtering removing removed OTUs with less than three sequences per sample. Such conservative analysis was intended to reduce the effect of possible sequencing artifacts.
 
-#This t yields a conserved and simplified OTU table (that mainly removed low count Ricketsialles OTUs), resulting in 803 OTUs with 173,137 sequences that were used in further analyses that was saved as "coral.txt". This file is also available in this tutorial as is its biom version "coral.biom" used in further analyses.
+#This yielded in a conserved and simplified OTU table (that mainly removed low count Ricketsialles OTUs), resulting in 803 OTUs with 173,137 sequences that were used in further analyses that was saved as "coral.txt". This file is also available in this tutorial as is its biom version "coral.biom" used in further analyses.
 
 # The file was saved as coral.txt and converted to coral.biom using the script:
 
