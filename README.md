@@ -124,14 +124,17 @@ summarize_taxa_through_plots.py -i norick_obs_table.biom -m Coral_Mapping.txt -o
 # Figure 4 - Taxa summary of the OTUs classified as Rickettsiales: 
 #Files needed and provided here: 1)ricketsialles.txt; 2) ricketsialles.biom; 3) rickrarefied.biom; 4) gtest_depth-ricketsialles-44; 5) sigrick44.biom and Figure generated “Figure 4-ricketsialles.pdf”
 
+#Fig4A
 biom convert -i ricketsialles.txt -o ricketsialles.biom --to-hdf5 --table-type="OTU table" --process-obs-metadata taxonomy 
 
 single_rarefaction.py -i ricketsialles.biom -d 23472 -o rickrarefied.biom
 
 summarize_taxa_through_plots.py -i rickrarefied.biom -m Coral_Mapping.txt -o taxarick/
 
+#Fig4B
 alpha_rarefaction.py -i rickrarefied.biom -p alpha_params.txt -t rep_set.tre -m Coral_Mapping.txt -o rarerick/ -e 23472
 
+#Fig4C
 group_significance.py -i rickrarefied.biom -m Coral_Mapping.txt -c Depth_m -s g_test -o gtest_depth-ricketsialles.txt
 
 filter_otus_from_otu_table.py -i rickrarefied.biom -e gtest_depth-ricketsialles-44.txt -o sigrick44.biom --negate_ids_to_exclude
