@@ -1,0 +1,2 @@
+Group1	Group2	Group1 mean	Group1 std	Group2 mean	Group2 std	t stat	p-value
+shallow	deep	545.506076844	47.3058777418	452.734837093	102.504409202	1.162139971	0.226
