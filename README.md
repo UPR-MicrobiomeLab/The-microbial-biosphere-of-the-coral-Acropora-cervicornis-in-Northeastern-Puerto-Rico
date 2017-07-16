@@ -135,7 +135,7 @@ summarize_taxa_through_plots.py -i rickrarefied.biom -m Coral_Mapping.txt -o tax
 alpha_rarefaction.py -i rickrarefied.biom -p alpha_params.txt -t rep_set.tre -m Coral_Mapping.txt -o rarerick/ -e 23472
 
 core_diversity_analyses.py -i rickrarefied.biom -m Coral_Mapping.txt -c depth -o corerickdivandtest/ -t rep_set.tre -e 23472 
-#core diversity yields a plethora of analyses including statistical testing for richness as presented in fig 4B
+#core diversity yields a plethora of analyses including statistical testing for richness as presented in fig 4B. The resulting statistical test fro the chao 1 richness found in core analyses in the path corerickdivandtest/arare_max23472/compare_chao1/depth_stats-chao1rick.txt is also found in this repository.
 
 #Fig4C
 group_significance.py -i rickrarefied.biom -m Coral_Mapping.txt -c Depth_m -s g_test -o gtest_depth-ricketsialles.txt
