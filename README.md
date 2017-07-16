@@ -83,7 +83,20 @@ biom summarize-table -i coral.biom --qualitative
 #Figure 2 beta and alpha div.pdf) available in this repository.
 #Files used: 1) coral.biom; 2) rep_set.tre; 3) Coral_Mapping.txt; 4) alpha_params.txt
 
-# For Fig 2 Panel C: 
+# Figure 2A NMDS:
+#files needed are: 1) Distance matrix (38distmatrix.csv). Built through the L6 genus-level taxa table (of the 78 non-ricketsialles OTUs) converted to text with taxonomy in the first column 2) Metadata file: metacoral.txt
+#Run nmds-for-fig2B.R (also available here) with the above files.
+
+# For figure 2B 3D-Biplots:
+#These are made with emperor in QIIME files 1) norick.biom = 78 non-ricketsialles OTUs; rep_set.tre;  Coral_Mapping.txt
+
+beta_diversity_through_plots.py -i norick.biom -t rep_set.tre -m Coral_Mapping.txt -o beta
+
+make_emperor.py -i beta/weighted_unifrac_pc.txt -m Coral_Mapping.txt -o biplotoptions6 -t taxarare/L6.txt -n 6 --add_vectors depth
+
+compare_categories.py --method anosim -i /Users/filipa/Desktop/PeerJ4a/DATA\ FOR\ GITBUB/beta/unweighted_unifrac_dm.txt -m Coral_Mapping.txt -c Depth_m -o adonis_out -n 999
+
+# For Fig 2 Panel C Alpha rarefaction plots: 
 #Alpha rarefaction curves in QIIME followed by statistical testing
 
 alpha_rarefaction.py -i coral.biom -p alpha_params.txt -t rep_set.tre -m Coral_Mapping.txt -o rare/ -e 28000
@@ -92,18 +105,6 @@ compare_alpha_diversity.py -i rare/alpha_div_collated/PD_whole_tree.txt -m Coral
 
 #The Depth_m_stats.txt file is available in this repository.
 
-# Figure 2B NMDS:
-#files needed are: 1) Distance matrix (38distmatrix.csv). Built through the L6 genus-level taxa table (of the 78 non-ricketsialles OTUs) converted to text with taxonomy in the first column 2) Metadata file: metacoral.txt
-#Run nmds-for-fig2B.R (also available here) with the above files.
-
-# For figure 2C 3D-Biplots:
-#These are made with emperor in QIIME files 1) norick.biom = 78 non-ricketsialles OTUs; rep_set.tre;  Coral_Mapping.txt
-
-beta_diversity_through_plots.py -i norick.biom -t rep_set.tre -m Coral_Mapping.txt -o beta
-
-make_emperor.py -i beta/weighted_unifrac_pc.txt -m Coral_Mapping.txt -o biplotoptions6 -t taxarare/L6.txt -n 6 --add_vectors depth
-
-compare_categories.py --method anosim -i /Users/filipa/Desktop/PeerJ4a/DATA\ FOR\ GITBUB/beta/unweighted_unifrac_dm.txt -m Coral_Mapping.txt -c Depth_m -o adonis_out -n 999
 
 # Figure 3 Taxa Summaries of filtered Rickettsiales and Non-filtered ricketsialles taxa: 
 #File rarefied_obs_table.biom; norick_obs_table.biom available here will be used to generate taxa summary plots in QIIME that will have L2 and L6 table used in R to generate the figures.
