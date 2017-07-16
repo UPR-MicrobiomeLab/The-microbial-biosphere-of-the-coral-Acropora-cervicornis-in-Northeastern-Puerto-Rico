@@ -190,7 +190,7 @@ biom convert -i DESeq2_g_test38.biom -o DESeq2_g_test38.txt --to-tsv --header-ke
 
 
 
-# LIST OF ALL THE 47 FILES AVAILABLE IN THIS REPOSITORY (SCRIPTS, FIGURES AND INTERMEDIARY FILES):
+# LIST OF ALL THE 48 FILES AVAILABLE IN THIS REPOSITORY (SCRIPTS, FIGURES AND INTERMEDIARY FILES):
 	README.md
 	Figure 2 beta and alpha div.pdf
 	Figure 4-ricketsialles.pdf
@@ -230,6 +230,7 @@ biom convert -i DESeq2_g_test38.biom -o DESeq2_g_test38.txt --to-tsv --header-ke
 	ricketsialles.biom
 	ricketsialles.txt
 	rickrarefied.biom
+	depth_stats-chao1rick.txt
 	signorickrick38.biom
 	signorickrick38.txt
 	sigrick44.biom
