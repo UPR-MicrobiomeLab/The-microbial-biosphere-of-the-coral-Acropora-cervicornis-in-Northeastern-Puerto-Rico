@@ -200,6 +200,7 @@ biom convert -i DESeq2_g_test38.biom -o DESeq2_g_test38.txt --to-tsv --header-ke
 	DESeq2_g_test44.txt
 	DESeq2_g_test44_tax.csv
 	Depth_m_stats.txt
+	anosim_results-fig2.txt
 	alpha_params.txt
 	coral.biom
 	coral.txt
