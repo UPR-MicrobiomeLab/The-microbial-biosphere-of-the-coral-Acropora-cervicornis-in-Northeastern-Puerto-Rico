@@ -6,8 +6,12 @@ Tutorial for analyzing the prokaryotic biomes of corals sampled at two depths in
 
 Data analyses includes standard python QIIME scripts as well as R packages such as VEGAN,ggplot2,reshape2, devtools, RColorBrewer. This tutorial contains the logical workflow, scripts and necessary intermediary files for the production of the data discussed in the manuscript titled: "The microbial biosphere of the coral _Acropora cervicornis_ in Northeastern Puerto Rico" by Godoy-Vitorino, F., Ruiz-Diaz,C.P., Rivera-Seda, A., Ramírez-Lugo, J.S. and Toledo-Hernández, C.
 
-#A total of 1,594,650 reads with Phred scores>20 (in file seq_fna.fasta) underwent chimera identification using usearch61, which will provide a list of chimeric sequences. 
-# Sequences can be downloaded NCBI SRA Archive BioProject ID PRJNA379103. 
+# Sequences can be downloaded NCBI SRA Archive BioProject ID PRJNA379103.
+
+#Use split_libraries_fastq.py –i Shallow1_26_S26_L001_R1_joined.fastq,Shallow2_27_S27_L001_R1_joined.fastq,Shallow3_28_S28_L001_R1_joined.fastq,Deep1_29_S29_L001_R1_joined.fastq,Deep2_30_S30_L001_R1_joined.fastq,Deep3_31_S31_L001_R1_joined.fastq --sample_ids CL1,CL2,CL3,CP1,CP2,CP3 -o split_library -q 19 --phred_offset 33
+
+#A concatenated file with sequences identified per sample "seq_fna.fasta" can also be found in the same NCBI bioproject
+(use file seq_fna.fasta)
 
 # Identify Chimeras from your raw sequences with usearch61 in QIIME
 
