@@ -6,12 +6,19 @@ Tutorial for analyzing the prokaryotic biomes of corals sampled at two depths in
 
 Data analyses includes standard python QIIME scripts as well as R packages such as VEGAN,ggplot2,reshape2, devtools, RColorBrewer. This tutorial contains the logical workflow, scripts and necessary intermediary files for the production of the data discussed in the manuscript titled: "The microbial biosphere of the coral _Acropora cervicornis_ in Northeastern Puerto Rico" by Godoy-Vitorino, F., Ruiz-Diaz,C.P., Rivera-Seda, A., Ramírez-Lugo, J.S. and Toledo-Hernández, C.
 
-# Sequences can be downloaded NCBI SRA Archive BioProject ID PRJNA379103.
+# Sequences can be downloaded NCBI SRA Archive BioProject ID PRJNA379103, with SRA accession SRP102061.
 
 #Use split_libraries_fastq.py –i Shallow1_26_S26_L001_R1_joined.fastq,Shallow2_27_S27_L001_R1_joined.fastq,Shallow3_28_S28_L001_R1_joined.fastq,Deep1_29_S29_L001_R1_joined.fastq,Deep2_30_S30_L001_R1_joined.fastq,Deep3_31_S31_L001_R1_joined.fastq --sample_ids CL1,CL2,CL3,CP1,CP2,CP3 -o split_library -q 19 --phred_offset 33
 
-#A concatenated file with sequences identified per sample "seq_fna.fasta" can also be found in the same NCBI bioproject
-(use file seq_fna.fasta)
+#Output: Split Library folder with histogram.txt, seqs.fna and split_library_log.txt
+
+#Barcodes in seqs.fna was AAAAAAAAAAAA, to put original barcodes, the following script was used to separate the .fna file by sample.
+
+split_sequence_file_on_sample_ids.py -i seqs.fna -o Separated_fna
+
+Output: Separated_fna folder with fasta files from each sample. Using Find/Replace to insert original and different barcodes to each sample. Then joined all samples with:
+
+cat File_CL1 File_CL2 File_CL3 File_CP1 File_CP2 File_CP3 > seq_fna.fasta
 
 # Identify Chimeras from your raw sequences with usearch61 in QIIME
 
