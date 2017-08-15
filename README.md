@@ -5,6 +5,7 @@ Tutorial for analyzing the prokaryotic biomes of corals sampled at two depths in
 * **TUTORIAL**
 
 Data analyses includes standard python QIIME scripts as well as R packages such as VEGAN,ggplot2,reshape2, devtools, RColorBrewer. This tutorial contains the logical workflow, scripts and necessary intermediary files for the production of the data discussed in the manuscript titled: "The microbial biosphere of the coral _Acropora cervicornis_ in Northeastern Puerto Rico" by Godoy-Vitorino, F., Ruiz-Diaz,C.P., Rivera-Seda, A., Ramírez-Lugo, J.S. and Toledo-Hernández, C.
+PeerJ 5:e3717; DOI 10.7717/peerj.3717
 
 # Sequences can be downloaded NCBI SRA Archive BioProject ID PRJNA379103, with SRA accession SRP102061.
 
